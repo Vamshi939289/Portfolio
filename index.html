@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vamshi Peraboina | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Vamshi Peraboina</div>
+    <input type="checkbox" id="menu-toggle" hidden>
+    <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <p class="tagline">AI/ML Engineer | Full Stack Developer</p>
+      <h1>Hi, I am <span>Vamshi Peraboina</span></h1>
+      <div class="hero-contacts">
+        <span><i class="fa-solid fa-envelope"></i>peraboinavamshiyadav@gmail.com</span>
+        <span><i class="fa-solid fa-phone"></i>9392893553</span>
+        <span>
+          <a href="https://www.linkedin.com/in/vamshiperaboina/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </span>
+      </div>
+      <div class="buttons">
+        <a href="#contact" class="btn primary">Contact Me</a>
+        <a href="Resume/Peraboina_Vamshi_Resume.pdf" class="btn outline" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="img/vamshi.png"alt="Profile" style="width:180px; height:180px; border-radius:12px; object-fit:cover; box-shadow:0 4px 16px rgba(0,0,0,0.15);" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      
+      <div class="about-content">
+        <h5 class="section-subtitle">MY INTRODUCTION</h5>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Vamshi, a passionate web developer with a strong foundation in Python, Java, HTML, CSS, JavaScript, and Node.js. I specialize in building robust and scalable web applications that offer seamless user experiences and responsive design. With hands-on experience and a drive for continuous learning, I enjoy crafting clean, efficient code and solving complex development challenges. My goal is to contribute to dynamic, tech-driven teams where I can apply my skills, embrace new technologies, and grow as a developer.
+        </p>
+        <div class="about-details">
+          <p><strong>Name:</strong> Vamshi Peraboina</p>
+          <p><strong>Date of birth:</strong> August 23, 2003</p>
+          <p><strong>Address:</strong> Hyderabad, Telangana, India</p>
+          <p><strong>Email:</strong> peraboinavamshiyadav@gmail.com</p>
+          <p><strong>Phone:</strong> 9392893553</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fab fa-html5 skill-icon"></i>
+        <h4>HTML</h4>
+        <div class="progress-bar"><div class="progress" style="width:95%"></div></div>
+        <div class="level-label">Expert</div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt skill-icon"></i>
+        <h4>CSS</h4>
+        <div class="progress-bar"><div class="progress" style="width:92%"></div></div>
+        <div class="level-label">Expert</div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-js-square skill-icon"></i>
+        <h4>JavaScript</h4>
+        <div class="progress-bar"><div class="progress" style="width:80%"></div></div>
+        <div class="level-label">Advanced</div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-python skill-icon"></i>
+        <h4>Python</h4>
+        <div class="progress-bar"><div class="progress" style="width:90%"></div></div>
+        <div class="level-label">Advanced</div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-java skill-icon"></i>
+        <h4>Java</h4>
+        <div class="progress-bar"><div class="progress" style="width:85%"></div></div>
+        <div class="level-label">Advanced</div>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-node-js skill-icon"></i>
+        <h4>Node.js</h4>
+        <div class="progress-bar"><div class="progress" style="width:75%"></div></div>
+        <div class="level-label">Intermediate</div>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database skill-icon"></i>
+        <h4>MongoDB/MySQL</h4>
+        <div class="progress-bar"><div class="progress" style="width:70%"></div></div>
+        <div class="level-label">Intermediate</div>
+      </div>
+    </div>
+    <div class="soft-skills">
+      <span>Problem-solving</span>
+      <span>Creativity</span>
+      <span>Time Management</span>
+
+      <span>Communication Skill</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-car"></i></div>
+        <h3> Car Rental Management System</h3>
+        <p> Designed a system to manage car bookings, customers, and vehicle inventory using Python and MySQL..</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-leaf"></i></div>
+        <h3>Plant Disease Detection using ML</h3>
+        <p> Built a machine learning model to classify plant diseases from leaf images using image processing.</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-robot"></i></div>
+        <h3>Next Word Prediction (Deep Learning)</h3>
+        <p>Predicts the next number of words according to the given length to phrase a sentence or essay.</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-newspaper"></i></div>
+        <h3>Multi-Class News Classification</h3>
+        <p>Built a machine learning model to classify news articles into multiple categories (e.g., sports, politics, technology, etc.)
+ using NLP techniques.</p>
+      </div>
+      <div class="project-card">
+        <div class="project-icon"><i class="fas fa-list-check"></i></div>
+        <h3>Simple To-Do List (Web Backend)</h3>
+        <p>Developed using PHP, HTML, CSS, JavaScript on 1STOP platform.</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Education Section -->
+<section id="education" class="education-section">
+  <h2>Education</h2>
+  <div class="education-timeline">
+    <div class="edu-item">
+      <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="edu-content">
+        <h3>B.Tech, CSE (AI-ML)</h3>
+        <span class="edu-institute">Malla Reddy University, Hyderabad, Telangana, India</span>
+        <span class="edu-year">2022–2026</span>
+        <div class="edu-details">CGPA: <strong>8.92</strong> (upto III-II)</div>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-icon"><i class="fas fa-university"></i></div>
+      <div class="edu-content">
+        <h3>Intermediate</h3>
+        <span class="edu-institute">Telangana State Model School & Jr Collage</span>
+        <span class="edu-year">2020–2022</span>
+        <div class="edu-details">CGPA: <strong>7.7</strong></div>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-icon"><i class="fas fa-school"></i></div>
+      <div class="edu-content">
+        <h3>X Class</h3>
+        <span class="edu-institute">Telangana State Model School & Jr Collage</span>
+        <span class="edu-year">2020</span>
+        <div class="edu-details">CGPA: <strong>10</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements-section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Obtained NPTEL certificate of Java Programming with 56 percentile.</li>
+      <li> Recognized for excellence in debugging challenges and effective paper presentations during academic activities.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h3>VAMSHI PERABOINA</h3>
+      <p>Crafting web solutions with code & creativity ✨</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/vamshiperaboina/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:peraboinavamshiyadav@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:9392893553"><i class="fa-solid fa-phone"></i></a>
+        <!-- Add more social icons if needed -->
+      </div>
+      <p class="copyright">© 2025 vamshiperaboina All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ScrollReveal Animation -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+    ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+    ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+    ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+    ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+    ScrollReveal().reveal('.skills-grid .skill-card', { interval: 100 });
+    ScrollReveal().reveal('.projects-grid .project-card', { interval: 100 });
+  </script>
+</body>
+</html>
